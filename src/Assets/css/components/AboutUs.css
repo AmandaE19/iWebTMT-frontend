@@ -1,0 +1,30 @@
+.AboutUs {
+    position: absolute;
+    border: 1px solid grey;
+    align-content: center;
+    width: 400px;
+    height: 400px;
+    opacity: 95%;
+    background-color: #2A2D30;
+    filter: drop-shadow(5px 5px 5px rgb(169, 156, 156));
+    border-radius: 8px;
+}
+
+.AboutUs_Content {
+    position: fixed;
+    width: 380px;
+    height: 350px;
+    margin-top: 30px;
+    padding: 8px;
+}
+.AboutUs_Content span {
+    display: flex;
+    margin-bottom: 7px;
+    height: max-content;
+    max-height: 200px;
+    text-align: justify;
+}
+.AboutUs_Content span span {
+    color: #E2317D;
+    margin-right: 4px;
+}

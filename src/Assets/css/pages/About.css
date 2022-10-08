@@ -1,0 +1,102 @@
+.about {
+    position: fixed;
+    height: 100vh;
+	width: 100vw;
+	font-family: 'Roboto', sans-serif;
+}
+
+.about_general {
+    height: 100%;
+    width: 100%;
+    background-color: #2A2D30;
+}
+
+.about_content {
+    height: 100%;
+    color: #FAFBFC;
+}
+
+.about_photos {
+    height: 30%;
+    width: 100%;
+}
+.about_webBI {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.about_peoples {
+    display: flex;
+    justify-content: center;
+}
+
+.about_people{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_img {
+    height: 100px;
+    width: 100px;
+}
+.about_names {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.about_infos {
+    margin-top: 80px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.about_project {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #0073EA;
+    width: 50%;
+    height: 60%;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.about_project_title { 
+    color: #E2317D;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 20px;
+}
+.about_project_text { 
+    text-align: justify; 
+    font-size: 16px;
+}
+
+.about_us {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
+}
+.about_us_title {
+    color: #E2317D;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 20px;
+}
+.about_us_text {
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.about_open_about {
+    cursor: pointer;
+}

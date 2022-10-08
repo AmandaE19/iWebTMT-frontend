@@ -1,0 +1,92 @@
+.login {
+	height: 100vh;
+	width: 100vw;
+	font-family: 'Roboto', sans-serif;
+}
+
+.login_content {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../img/photos/background_login.svg');
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_modal {
+    width: 25%;
+    height: 50%;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+    filter: drop-shadow(5px 5px 5px #333);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px;
+}
+
+.login_logo {
+    height: 110px;
+    width: 110px;
+}
+.login_text_signin {
+    color: #333333;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 8px;
+}
+.login_web { color: #3A5E84}
+.login_BI { color: #0073EA}
+
+.login_inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.login_inputs input {
+    border: 0.5px solid #666666;
+    height: 35px;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #333333;
+    text-indent: 5px;
+}
+.login_inputs input:focus{ 
+    outline: 0.5px solid #0073EA;
+    border: 0.5px solid #0073EA;
+    text-decoration: none;
+}
+
+.login_inputs button {
+    font-size: 16px;
+    height: 35px;
+    width: 90%;
+    cursor: pointer;
+    background-color: #0073EA;
+    margin-top: 20px;
+    color: #FAFBFC;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.login_inputs button:hover{
+    background-color: #3590f2;
+    transition: all ease 0.2s;
+}
+.login_inputs button:active{
+    background-color: #055cba;
+}
+
+.login_text_create_account {
+    color: #333333;
+    font-size: 12px;
+}
+.login_text_create_account span{
+    color: #0073EA;
+    cursor: pointer;
+}
